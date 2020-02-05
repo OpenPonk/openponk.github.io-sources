@@ -3,52 +3,47 @@
 
    * - Build
      - Version
-     - Linux 32b
-     - Linux 64b
+     - Linux
      - Windows
-     - 32b image
-     - 64b image
+     - Pharo image
 
    * - **All in One**
-     - outdated
+     - nightly
      - :download-link:`all-in-one,latest,linux`
-     -
      - :download-link:`all-in-one,latest,win`
-     - :download-link:`all-in-one,latest,image`
-     -
+     - :download-link:`all-in-one,latest,pharo-image`
    * - **UML CD + OntoUML**
-     - 1.x
-     - :download-link:`uml,1.0.0,linux`
-     -
-     - :download-link:`uml,1.0.0,windows`
-     - :download-link:`uml,1.0.0,image`
-     -
+     - nightly
+     - :download-link:`class-editor,latest,linux`
+     - :download-link:`class-editor,latest,win`
+     - :download-link:`class-editor,latest,pharo-image`
+   * - **UML CD + OntoUML**
+     - 1.0.0
+     - :download-link:`class-editor,1.0.0,linux`
+     - :download-link:`class-editor,1.0.0,win`
+     - :download-link:`class-editor,1.0.0,pharo-image`
    * - **BORM ORD**
-     - TBA
-     - 
-     - 
-     -
-     -
-     -
+     - nightly
+     - :download-link:`borm-editor,latest,linux`
+     - :download-link:`borm-editor,latest,win`
+     - :download-link:`borm-editor,latest,pharo-image`
    * - **FSM**
-     - beta
-     - :download-link:`fsm,latest,linux`
-     - :download-link:`fsm,latest,linux64`
-     - :download-link:`fsm,latest,windows`
-     - :download-link:`fsm,latest,image`
-     - :download-link:`fsm,latest,image64`
-     
+     - nightly
+     - :download-link:`fsm-editor,latest,linux`
+     - :download-link:`fsm-editor,latest,win`
+     - :download-link:`fsm-editor,latest,pharo-image`
+   * - **FSM**
+     - 1.0.0
+     - :download-link:`fsm-editor,1.0.0,linux`
+     - :download-link:`fsm-editor,1.0.0,win`
+     - :download-link:`fsm-editor,1.0.0,pharo-image`
    * - **Petri Nets**
-     - beta
+     - nightly
      - :download-link:`petrinets,latest,linux`
-     - :download-link:`petrinets,latest,linux64`
-     - :download-link:`petrinets,latest,windows`
-     - :download-link:`petrinets,latest,image`
-     - :download-link:`petrinets,latest,image64`
-   * - **DEMO (WIP)**
-     - TBA
-     - 
-     -
-     -
-     - 
-     -
+     - :download-link:`petrinets,latest,win`
+     - :download-link:`petrinets,latest,pharo-image`
+   * - **Petri Nets**
+     - 1.0.0
+     - :download-link:`petrinets,1.0.0,linux`
+     - :download-link:`petrinets,1.0.0,win`
+     - :download-link:`petrinets,1.0.0,pharo-image`

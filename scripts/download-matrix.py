@@ -1,12 +1,14 @@
-import StringIO
+import io
 
 types = [
-    ('All in One', 'all-in-one', ('outdated', 'latest')),
-    ('UML CD + OntoUML', 'uml', ('1.x', '1.0.0')),
-    ('BORM ORD', 'borm', ()),
-    ('FSM', 'fsm', ('beta', 'latest')),
-    ('Petri Nets', 'petrinets', ('beta', 'latest')),
-    ('DEMO (WIP)', 'demo', ()),
+    ('All in One', 'all-in-one', ('nightly', 'latest')),
+    ('UML CD + OntoUML', 'class-editor', ('nightly', 'latest')),
+    ('UML CD + OntoUML', 'class-editor', ('1.0.0', '1.0.0')),
+    ('BORM ORD', 'borm-editor', ('nightly', 'latest')),
+    ('FSM', 'fsm-editor', ('nightly', 'latest')),
+    ('FSM', 'fsm-editor', ('1.0.0', '1.0.0')),
+    ('Petri Nets', 'petrinets', ('nightly', 'latest')),
+    ('Petri Nets', 'petrinets', ('1.0.0', '1.0.0')),
 ]
 
 header = '''.. list-table:: Download Matrix
@@ -14,25 +16,17 @@ header = '''.. list-table:: Download Matrix
 
    * - Build
      - Version
-     - Linux 32b
-     - Linux 64b
+     - Linux
      - Windows
-     - 32b image
-     - 64b image
+     - Pharo image
 '''
 
-baseUrl = 'https://openponk.ccmi.fit.cvut.cz/builds'
-
-platforms = ['linux', 'linux64', 'windows', 'image', 'image64']
-
-ga = 'ga(''send'', ''event'', ''Downloads'', ''download'', ''{type}-{platform}-stable'')'
-
-anchor = '<a href="' + baseUrl + '/openponk-{platform}-{version}.zip" onclick="' + ga + '">download</a>'
+platforms = ['linux', 'win', 'pharo-image']
 
 ind = '   '
 in2 = ind + '  - '
 
-stream = StringIO.StringIO()
+stream = io.StringIO()
 
 stream.write(header)
 stream.write('\n')

@@ -20,8 +20,8 @@
 # -- Project information -----------------------------------------------------
 
 project = u'OpenPonk modeling platform'
-copyright = u'2019, Peter Uhnak'
-author = u'Peter Uhnak'
+copyright = u'2020, Peter Uhnak and Jan Blizničenko'
+author = u'Peter Uhnak and Jan Blizničenko'
 
 # The short X.Y version
 version = u''
@@ -40,7 +40,7 @@ class download_link(nodes.reference):
 
 def visit_download_link(self, node):
     self.body.append(
-        '<a class="reference download external" href="%s" onclick="%s">' % (node.refuri, node['onclick'])
+        '<a class="reference download external" href="%s">' % (node.refuri)
     )
     self.context.append('</a>')
 
@@ -119,9 +119,8 @@ def download_link_role(name, rawtext, text, lineno, inliner, options={}, content
     plugin = parts[0]
     version = parts[1]
     platform = parts[2]
-    url = 'https://openponk.ccmi.fit.cvut.cz/builds/' + plugin + '/openponk-' + platform + '-' + version + '.zip'
+    url = 'https://bintray.com/openponk/builds/download_file?file_path=' + plugin + '/' + version + '/openponk-' + plugin + '-' + platform + '-' + version + '.zip'
     node = nodes.reference(rawtext, 'download', refuri=url)
-    node['onclick'] = "ga('send', 'event', 'Downloads', 'download', 'uml-" + platform + "-stable')"
     return [node],[]
 
 # </CustomRoles>
