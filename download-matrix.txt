@@ -12,7 +12,7 @@
      - :download-link:`all-in-one,latest,linux`
      - :download-link:`all-in-one,latest,win`
      - :download-link:`all-in-one,latest,pharo-image`
-   * - **UML CD + OntoUML**
+   * - `UML CD + OntoUML <https://github.com/OpenPonk/class-editor>`_
      - nightly
      - :download-link:`class-editor,latest,linux`
      - :download-link:`class-editor,latest,win`
@@ -22,12 +22,12 @@
      - :download-link:`class-editor,1.0.0,linux`
      - :download-link:`class-editor,1.0.0,win`
      - :download-link:`class-editor,1.0.0,pharo-image`
-   * - **BORM ORD**
+   * - `BORM ORD <https://github.com/OpenPonk/borm-editor>`_
      - nightly
      - :download-link:`borm-editor,latest,linux`
      - :download-link:`borm-editor,latest,win`
      - :download-link:`borm-editor,latest,pharo-image`
-   * - **FSM**
+   * - `FSM <https://github.com/OpenPonk/fsm-editor>`_
      - nightly
      - :download-link:`fsm-editor,latest,linux`
      - :download-link:`fsm-editor,latest,win`
@@ -37,7 +37,7 @@
      - :download-link:`fsm-editor,1.0.0,linux`
      - :download-link:`fsm-editor,1.0.0,win`
      - :download-link:`fsm-editor,1.0.0,pharo-image`
-   * - **Petri Nets**
+   * - `Petri Nets <https://github.com/OpenPonk/petrinets>`_
      - nightly
      - :download-link:`petrinets,latest,linux`
      - :download-link:`petrinets,latest,win`

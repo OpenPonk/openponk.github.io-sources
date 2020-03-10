@@ -2,12 +2,12 @@ import io
 
 types = [
     ('All in One', 'all-in-one', ('nightly', 'latest')),
-    ('UML CD + OntoUML', 'class-editor', ('nightly', 'latest')),
+    ('UML CD + OntoUML', 'class-editor', ('nightly', 'latest'), 'https://github.com/OpenPonk/class-editor'),
     ('UML CD + OntoUML', 'class-editor', ('1.0.0', '1.0.0')),
-    ('BORM ORD', 'borm-editor', ('nightly', 'latest')),
-    ('FSM', 'fsm-editor', ('nightly', 'latest')),
+    ('BORM ORD', 'borm-editor', ('nightly', 'latest'), 'https://github.com/OpenPonk/borm-editor'),
+    ('FSM', 'fsm-editor', ('nightly', 'latest'), 'https://github.com/OpenPonk/fsm-editor'),
     ('FSM', 'fsm-editor', ('1.0.0', '1.0.0')),
-    ('Petri Nets', 'petrinets', ('nightly', 'latest')),
+    ('Petri Nets', 'petrinets', ('nightly', 'latest'), 'https://github.com/OpenPonk/petrinets'),
     ('Petri Nets', 'petrinets', ('1.0.0', '1.0.0')),
 ]
 
@@ -37,9 +37,18 @@ for arr in types:
     versions = arr[2]
 
     stream.write(ind)
-    stream.write('* - **')
-    stream.write(name)
-    stream.write('**\n')
+
+    if len(arr)==4:
+        stream.write('* - `')
+        stream.write(name)
+        stream.write(' <')
+        stream.write(arr[3])
+        stream.write('>`_\n')
+    else:
+        stream.write('* - **')
+        stream.write(name)
+        stream.write('**\n')
+   
     stream.write(in2)
     if len(versions) == 0:
         stream.write('TBA\n')
