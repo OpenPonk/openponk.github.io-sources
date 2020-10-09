@@ -2,13 +2,15 @@ import io
 
 types = [
     ('All in One', 'all-in-one', ('nightly', 'latest')),
+    ('All in One', 'all-in-one', ('v2.0', 'v2.0.0')),
     ('UML CD + OntoUML', 'class-editor', ('nightly', 'latest'), 'https://github.com/OpenPonk/class-editor'),
-    ('UML CD + OntoUML', 'class-editor', ('1.0.0', '1.0.0')),
+    ('UML CD + OntoUML', 'class-editor', ('v2.0', 'v2.0.0')),
     ('BORM ORD', 'borm-editor', ('nightly', 'latest'), 'https://github.com/OpenPonk/borm-editor'),
+    ('BORM ORD', 'borm-editor', ('v2.0', 'v2.0.0'), 'https://github.com/OpenPonk/borm-editor'),
     ('FSM', 'fsm-editor', ('nightly', 'latest'), 'https://github.com/OpenPonk/fsm-editor'),
-    ('FSM', 'fsm-editor', ('1.0.0', '1.0.0')),
+    ('FSM', 'fsm-editor', ('v2.0', 'v2.0.0')),
     ('Petri Nets', 'petrinets', ('nightly', 'latest'), 'https://github.com/OpenPonk/petrinets'),
-    ('Petri Nets', 'petrinets', ('1.0.0', '1.0.0')),
+    ('Petri Nets', 'petrinets', ('v2.0', 'v2.0.0')),
 ]
 
 header = '''.. list-table:: Download Matrix
