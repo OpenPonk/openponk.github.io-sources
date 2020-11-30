@@ -8,30 +8,30 @@
      - Pharo image
 
    * - **All in One**
-     - v2.0.1
-     - :download-link:`all-in-one,v2.0.1,linux`
-     - :download-link:`all-in-one,v2.0.1,win`
-     - :download-link:`all-in-one,v2.0.1,pharo-image`
+     - v2.0.2
+     - :download-link:`all-in-one,v2.0.2,linux`
+     - :download-link:`all-in-one,v2.0.2,win`
+     - :download-link:`all-in-one,v2.0.2,pharo-image`
    * - **UML CD + OntoUML**
-     - v2.0.1
-     - :download-link:`class-editor,v2.0.1,linux`
-     - :download-link:`class-editor,v2.0.1,win`
-     - :download-link:`class-editor,v2.0.1,pharo-image`
+     - v2.0.2
+     - :download-link:`class-editor,v2.0.2,linux`
+     - :download-link:`class-editor,v2.0.2,win`
+     - :download-link:`class-editor,v2.0.2,pharo-image`
    * - `BORM ORD <https://github.com/OpenPonk/borm-editor>`_
-     - v2.0.0
-     - :download-link:`borm-editor,v2.0.0,linux`
-     - :download-link:`borm-editor,v2.0.0,win`
-     - :download-link:`borm-editor,v2.0.0,pharo-image`
+     - v2.0.1
+     - :download-link:`borm-editor,v2.0.1,linux`
+     - :download-link:`borm-editor,v2.0.1,win`
+     - :download-link:`borm-editor,v2.0.1,pharo-image`
    * - **FSM**
-     - v2.0.0
-     - :download-link:`fsm-editor,v2.0.0,linux`
-     - :download-link:`fsm-editor,v2.0.0,win`
-     - :download-link:`fsm-editor,v2.0.0,pharo-image`
+     - v2.0.1
+     - :download-link:`fsm-editor,v2.0.1,linux`
+     - :download-link:`fsm-editor,v2.0.1,win`
+     - :download-link:`fsm-editor,v2.0.1,pharo-image`
    * - **Petri Nets**
-     - v2.0.0
-     - :download-link:`petrinets,v2.0.0,linux`
-     - :download-link:`petrinets,v2.0.0,win`
-     - :download-link:`petrinets,v2.0.0,pharo-image`
+     - v2.0.1
+     - :download-link:`petrinets,v2.0.1,linux`
+     - :download-link:`petrinets,v2.0.1,win`
+     - :download-link:`petrinets,v2.0.1,pharo-image`
    * - **All in One**
      - nightly
      - :download-link:`all-in-one,latest,linux`

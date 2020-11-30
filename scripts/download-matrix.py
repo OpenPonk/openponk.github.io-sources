@@ -1,11 +1,11 @@
 import io
 
 types = [
-    ('All in One', 'all-in-one', ('v2.0.1', 'v2.0.1')),
-    ('UML CD + OntoUML', 'class-editor', ('v2.0.1', 'v2.0.1')),
-    ('BORM ORD', 'borm-editor', ('v2.0.0', 'v2.0.0'), 'https://github.com/OpenPonk/borm-editor'),
-    ('FSM', 'fsm-editor', ('v2.0.0', 'v2.0.0')),
-    ('Petri Nets', 'petrinets', ('v2.0.0', 'v2.0.0')),
+    ('All in One', 'all-in-one', ('v2.0.2', 'v2.0.2')),
+    ('UML CD + OntoUML', 'class-editor', ('v2.0.2', 'v2.0.2')),
+    ('BORM ORD', 'borm-editor', ('v2.0.1', 'v2.0.1'), 'https://github.com/OpenPonk/borm-editor'),
+    ('FSM', 'fsm-editor', ('v2.0.1', 'v2.0.1')),
+    ('Petri Nets', 'petrinets', ('v2.0.1', 'v2.0.1')),
     ('All in One', 'all-in-one', ('nightly', 'latest')),
     ('UML CD + OntoUML', 'class-editor', ('nightly', 'latest'), 'https://github.com/OpenPonk/class-editor'),
     ('BORM ORD', 'borm-editor', ('nightly', 'latest'), 'https://github.com/OpenPonk/borm-editor'),
